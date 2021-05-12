@@ -1,0 +1,7 @@
+<!-- Attribute directive: changes only the element its applied to -->
+<!-- ngclass add or remove classes dynamically -->
+
+<p [ngStyle] = "{backgroundColor : getColor()}"
+    [ngClass]= "{online: serverStatus === 'online'}">
+    {{'Server'}} with ID {{ serverID }} is {{getServerStatus()}}
+</p>
