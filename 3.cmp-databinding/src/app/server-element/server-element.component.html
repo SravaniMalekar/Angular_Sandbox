@@ -1,0 +1,11 @@
+<div
+    class="panel panel-default">
+    <!-- <div class="panel-heading">{{ element.name }}</div> -->
+    <div class="panel-heading" #heading>{{ name }}</div>
+    <div class="panel-body">
+
+        <!-- ng-content - Directive which projects any content between the 
+        component tag(<app-server-element></app-server-element>) into the component -->
+        <ng-content></ng-content>
+    </div>
+</div>
